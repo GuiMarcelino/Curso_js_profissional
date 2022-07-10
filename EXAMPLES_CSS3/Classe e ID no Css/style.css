@@ -1,0 +1,17 @@
+/* # Usando Classe */
+.orange-text{
+    color: orange;
+    font-size: 20;
+}
+
+.big-text{
+    font-size: 70;
+}
+
+
+/* # Usando id  */
+
+#europa-text{
+    font-size: 10;
+    color: blue;
+}
