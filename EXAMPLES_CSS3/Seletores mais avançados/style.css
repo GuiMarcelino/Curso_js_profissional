@@ -1,0 +1,32 @@
+/* seletor star(*) aplica os parâmetros para todos os elementos */
+* {
+    border: 2px solid;
+}
+
+/* Seletor de descêndencia */
+li a{
+    color: red;
+}
+
+/* Seletor de descêndencia pai pra filho */
+li > a{
+    color: red;
+}
+
+/* Seletor adjecente */
+
+h1 + h4{
+    border: 4px dashed;
+}
+
+/* Seletor de atributo */
+
+a[href='seila'] {
+    border: orange;
+}
+
+/* Seletor pseudoclasse */
+
+li:nth-of-type(2) {
+    color: purple;
+}
